@@ -145,7 +145,7 @@ nav .menu-btn i{
     color: white;
     text-align: center;
 }
-.buy-btns-b{
+/* .buy-btns-b{
     background-color: white;
     color: black;
     font-weight: 500;
@@ -156,42 +156,107 @@ nav .menu-btn i{
 .buy-btns-a{
     background-color: white;
     color: black;
-    font-weight: 400;
-    padding: 10px 20px;
-    border-radius: 14px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 20px;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+  .body{
+      background-color: #070709;
+  }
+
+
+  .card-footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .order-btn{
+      background-color: white;
+      color: black;
+      font-weight: 500;
+      padding: 10px 30px;
+      border-radius: 20px;
+      font-size: 16px;
+  }
+  .product-tag-copy-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10px;
+  }
+  .product-tag-copy-section p{
+    text-align: right;
+    padding: 1px 6px 0px 0px;
+  }
+  .product-tag-copy-section img{
+    cursor: pointer;
+  }
+
+
+
+
 
 }
-.product-tag-copy-section{
-  display: grid;
-  grid-template-columns: 50% 50%;
+
+
+
+@media screen and (max-width: 1200px) {
+
+  .body{
+      background-color: black;
+  }
+
+
+
+
+  .card-footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .order-btn{
+      background-color: white;
+      color: black;
+      font-weight: 500;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-size: 16px;
+  }
+  .product-tag-copy-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10px;
+  }
+  .product-tag-copy-section p{
+    text-align: right;
+    padding: 1px 6px 0px 0px;
+  }
+  .product-tag-copy-section img{
+    cursor: pointer;
+  }
+
+
+
 }
-.product-tag-copy-section p{
-  text-align: right;
-  padding: 1px 6px 0px 0px;
-}
-.product-tag-copy-section img{
-  cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
