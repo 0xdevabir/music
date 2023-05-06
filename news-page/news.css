@@ -57,15 +57,24 @@ nav .menu-btn i{
 }
 /* btn btn btn */
 .nav-sponsor-btn{
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 13.5px;
     line-height: 120%;
-    color: #FFFFFF;
+    color: black;
     padding: 10px 24px;
     gap: 24px;
-    background: #D96A2C;
+    /* background: #D96A2C; */
+    background-color: white;
     border-radius: 100px;
     border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav-sponsor-btn:hover{
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  /* padding: 10px 30px; */
 }
 
 @media (max-width: 940px){
@@ -84,6 +93,7 @@ nav .menu-btn i{
         display: block;
         text-align: center;
         transition: all .4s ease;
+        background-color: rgba(0, 0, 0, 0.823);
     }
     #nav-bar-click:checked ~ ul{
         left: 0;
@@ -92,6 +102,10 @@ nav .menu-btn i{
     nav ul li{
         margin: 40px 0px;
         margin-right: 30px;
+        background-color: rgba(0, 0, 0, 0.663);
+        border-bottom: 1px solid rgba(245, 245, 245, 0.464);
+        padding: 10px 0px;
+        border-radius: 20px;
     }
     nav ul li a{
         display: block;
@@ -102,6 +116,10 @@ nav .menu-btn i{
     }
 
 }
+
+
+
+
 
 
 

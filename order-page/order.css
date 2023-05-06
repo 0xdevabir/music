@@ -14,6 +14,13 @@ body{
 }
 
 
+
+
+
+
+
+
+
 /* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
 nav{
     font-family: 'Stolzl';
@@ -128,11 +135,6 @@ nav .menu-btn i{
 
 
 
-.music-page-header{
-    color: white;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-}
 
 
 
@@ -141,109 +143,230 @@ nav .menu-btn i{
 
 
 
-/* PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC - PC */
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1200px) {
-
     .body{
-        background-color: black;
-    }
-
-    .music-play-container{
-        text-align: center;
-    }
-    .music-page-musics{
-        /* width: 465px;
-        height: 260px; */
-        width: 100%;
-        /* height: 220px; */
-        height: 145%;
-    }
-    .music-page-shorts{
-        width: 100%;
-        height: 350px;
+        background-color: #070709;
     }
 
 
-    .music-page-part1{
-        display: grid;
-        grid-template-columns: 30% 5% 30% 5% 30%;
-        margin-bottom: 100px;
+
+    .order-box-start{
+      background-color: rgba(0, 0, 0, 0.799);
+      border-radius: 20px;
+      text-align: center;
     }
-    .music-page-part2{
-        margin-top: 100px;
-        display: grid;
-        grid-template-columns: 30% 5% 30% 5% 30%;
-        margin-bottom: 100px;
+    .order-box{
+      padding: 50px 50px 100px 50px;
+      border-bottom: 1px solid white;
     }
-    .music-page-part3{
-        margin-top: 100px;
-        display: grid;
-        grid-template-columns: 15% 2% 15% 2% 15% 2% 15% 2% 15% 2% 15%;
-        
+    .order-box-2{
+      padding: 100px 0px;
     }
-    .music-page-part4{
-        margin-top: 100px;
-        display: grid;
-        grid-template-columns: 30% 5% 30% 5% 30%;
-        margin-bottom: 100px;
+    .order-form-input{
+      border: 1.5px solid white;
+      background-color: transparent;
+      margin: 20px;
+      padding: 15px;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
     }
-    .music-page-part5{
-        margin-top: 100px;
-        display: grid;
-        grid-template-columns: 30% 5% 30% 5% 30%;
-        margin-bottom: 100px;
+    .name-email{
+      display: grid;
+      grid-template-columns: 50% 50%;
     }
-    
+    .product-code-contact{
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+    .address-form{
+      display: grid;
+      grid-template-columns: 100%;
+      line-height: 100px;
+    }
+    .order-place-btn{
+      background-color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 20px;
+      margin-top: 20px;
+      transition: .3s;
+    }
+    .order-place-btn:hover{
+      background-color: transparent;
+      color: white;
+      border: 1.5px solid white;
+    }
+
+
+
+    .order-whatsapp{
+
+      background-color: #25D366;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin: 0px 20px;
+      transition: 0.3s;
+
+    }
+    .order-whatsapp:hover{
+      background-color: transparent;
+      border: 2px solid white;
+    }
+    .order-facebook{
+
+      background-color: #4267B2;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin: 0px 20px;
+      transition: 0.3s;
+
+    }
+    .order-facebook:hover{
+      background-color: transparent;
+      border: 2px solid white;
+    }
+
+
+
+
+
+
 }
 
-/* PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE - PHONE */
+
+
 @media screen and (max-width: 1200px) {
-
     .body{
-        background-color: black;
+        background-color: #070709;
     }
 
 
-
-    .music-play-container{
-        text-align: center;
-    }
-
-    .music-page-musics{
-       width: 100%;
-       height: 220px;
-    }
-    .music-page-shorts{
-        width: 50%;
-        height: 360px;
-    }
-
-
-    .music-page-part1{
-        
-    }
-    .music-page-part2{
-        
-    }
-    .music-page-part3{
-        
-        
-    }
 
 
     
+    .order-box-start{
+      background-color: rgba(0, 0, 0, 0.799);
+      border-radius: 20px;
+      text-align: center;
+    }
+    .order-box{
+      /* padding: 100px 50px; */
+      padding-bottom: 50px;
+      border-bottom: 1px solid white;
+    }
+    .order-box-2{
+      padding: 100px 0px;
+    }
+    .order-form-input{
+      border: 1.5px solid white;
+      background-color: transparent;
+      margin: 20px;
+      padding: 15px;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      font-size: 18px;
+      font-weight: 300;
+    }
+    .name-email{
+      /* display: grid;
+      grid-template-columns: 50% 50%; */
+    }
+    .product-code-contact{
+      /* display: grid;
+      grid-template-columns: 50% 50%; */
+    }
+    .address-form{
+      /* display: grid;
+      grid-template-columns: 100%; */
+      line-height: 100px;
+    }
+    .order-place-btn{
+      background-color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: 400;
+      border-radius: 20px;
+      margin-top: 20px;
+      transition: .3s;
+    }
+    .order-place-btn:hover{
+      background-color: transparent;
+      color: white;
+      border: 1.5px solid white;
+    }
+
+
+
+    .order-whatsapp{
+
+      background-color: #25D366;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin: 0px 20px;
+      transition: 0.3s;
+
+    }
+    .order-whatsapp:hover{
+      background-color: transparent;
+      border: 2px solid white;
+    }
+    .order-facebook{
+
+      background-color: #4267B2;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin: 0px 20px;
+      transition: 0.3s;
+      margin-top: 20px;
+    }
+    .order-facebook:hover{
+      background-color: transparent;
+      border: 2px solid white;
+    }
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -438,4 +561,3 @@ ul {
   font-size: 14px;
   color: #878787;
 }
-
