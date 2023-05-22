@@ -14,6 +14,17 @@ body{
 }
 
 
+#preloader{
+  background: #000 url(images/loader-1.gif) no-repeat center center;
+  background-size: 80%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+
+
 /* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
 nav{
     font-family: 'Stolzl';

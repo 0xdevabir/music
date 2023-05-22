@@ -1,3 +1,8 @@
+
+
+
+
+
 function copyToClipboard(element) {
     var $temp = $("<input>");
     $("body").append($temp);
@@ -7,3 +12,12 @@ function copyToClipboard(element) {
 
     alert("PRODUCT TAG COPYID");
     }
+
+
+
+
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function(){
+        loader.style.display = "none"
+    })
