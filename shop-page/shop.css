@@ -29,6 +29,35 @@ body{
   background-color: rgba(255, 255, 255, 0.104);
   border-radius: 6px;
   border-bottom: 3px solid white;
+  animation: nav-shop-fade;
+  animation-duration: 1s;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.nav-shop:hover{
+  background-color: rgba(255, 255, 255, 0.284);
+}
+.nav-shop a:hover{
+  color: white;
+}
+@keyframes nav-shop-fade{
+
+
+  0% {
+      opacity: 0.5;
+      /* transform: translateY(1000px); */
+  }
+
+  80% {
+    opacity: 1;
+      /* transform: translateY(-10px); */
+  }
+
+
+  100% {
+      opacity: 1;
+      /* transform: translate(0); */
+  }
 }
 /* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
 nav{
