@@ -183,6 +183,9 @@ nav .menu-btn i{
     .body{
         background-color: black;
     }
+    .music-page-nav-bottom{
+      padding: 60px 0px;
+    }
     
 #preloader{
   background: #000 url(images/loader-1.gif) no-repeat center center;
@@ -239,6 +242,29 @@ nav .menu-btn i{
         grid-template-columns: 30% 5% 30% 5% 30%;
         margin-bottom: 100px;
     }
+
+
+
+    .music-page-seemore-btn-section{
+      text-align: center;
+    }
+    .music-page-seemore-btn{
+      background-color: white;
+      color: black;
+      padding: 10px 30px;
+      border: none;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 20px;
+      transition: 0.25s;
+    }
+    .music-page-seemore-btn:hover{
+      background-color: black;
+      border: 1px solid white;
+      color: white;
+    }
+
+    
     
 }
 
@@ -249,6 +275,11 @@ nav .menu-btn i{
         background-color: black;
     }
 
+    .music-page-nav-bottom{
+      padding: 40px 0px;
+    }
+
+    
     
 #preloader{
   background: #000 url(images/loader-1.gif) no-repeat center center;
@@ -286,6 +317,24 @@ nav .menu-btn i{
         
     }
 
+    .music-page-seemore-btn-section{
+      text-align: center;
+    }
+    .music-page-seemore-btn{
+      background-color: white;
+      color: black;
+      padding: 10px 30px;
+      border: none;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 20px;
+      transition: 0.25s;
+    }
+    .music-page-seemore-btn:hover{
+      background-color: black;
+      border: 1px solid white;
+      color: white;
+    }
 
     
 }

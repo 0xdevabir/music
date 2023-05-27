@@ -37,7 +37,7 @@
                 <li class="navbar-items"><a href="index.html">Home</a></li>
                 <li class="navbar-items"><a href="news-page/news.html">News</a></li>
                 <li class="navbar-items"><a href="shop-page/shop.html">Shop</a></li>
-                <li class="navbar-items"><a href="#">Gallery</a></li>
+                <li class="navbar-items"><a href="gallery-page/gallery.html">Gallery</a></li>
                 <li class="navbar-items"><a href="music.html">Music</a></li>
                 <li><a href="contact.html"><button class="nav-sponsor-btn">Contact</button></a></li>
             </ul>
@@ -91,8 +91,19 @@
                   </div>
             </div>
             
-            <!-- <form action="" onsubmit="sendEmail(); reset(); return false;"> -->
+
+
+
                 <form class="contact-form-right" action="https://formsubmit.co/proabir2007@gmail.com" method="POST">
+                    <!-- honepot -->
+                    <input type="text" name="_honey" style="display: none;">
+
+                    <!-- disable captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <input type="hidden" name="_next" value="http://fokirlalmiah.com/">
+
+
                 <h1>Get in touch
                     <div class="spinner-grow" role="status">
                         <span class="visually-hidden">Loading...</span>
@@ -100,10 +111,26 @@
                 </h1>
                 <input type="text" placeholder="Name" name="name">
                 <input id="email" type="text" placeholder="Email" name="email">
-                <textarea class="message-box" name="comment" form="usrform" placeholder="message"></textarea>
+                <input id="phone" type="text" placeholder="Phone" name="phone">
+                <textarea id="comments" class="message-box" name="comments,&nbsp;questions" placeholder="message"></textarea>
                 <a id="contact-page-click" href="#"><input type="submit" placeholder="Login"></a>
 
             </form>
+
+
+
+
+
+
+
+            <!-- <textarea id="comments" class="message-box" name="comments, questions" form="usrform" placeholder="message"></textarea> -->
+
+
+
+
+
+
+
             
         </div>
 
